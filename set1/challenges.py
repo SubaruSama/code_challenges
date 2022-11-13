@@ -55,6 +55,6 @@ def fixed_xor(first_xor_string: str, second_xor_string: str):
     """
 
     # Checar se o tamanho é o mesmo. XOR não consegue funcionar se tiver tamanhos diferentes.
-    assert len(first_xor_string) == len(second_xor_string)
+    assert len(first_xor_string) == len(second_xor_string), 'The size of provided strings must be the same'
 
-    raise NotImplementedError
+fixed_xor('1c0111001f010100061a024b53535009181c', '686974207468652062756c6c277320657965')
