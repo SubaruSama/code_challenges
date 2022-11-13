@@ -12,6 +12,7 @@ class Set1TestCase(unittest.TestCase):
         self.first_xor_string = '1c0111001f010100061a024b53535009181c'
         self.second_xor_string = '686974207468652062756c6c277320657965'
         self.result = '746865206b696420646f6e277420706c6179'
+        self.assertEqual(fixed_xor(self.first_xor_string, self.second_xor_string), self.result)
 
 if __name__ == '__main__':
     unittest.main()
