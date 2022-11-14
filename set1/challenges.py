@@ -16,7 +16,8 @@ def hex_to_base(string: str) -> str:
     The return type str is only for printing. Inside the function we will operate on byte level.
 
     Irá chegar uma string qualquer. Deve mudar o tipo de str para bytes, mesmo que a string esteja em hexadecimal, o tipo dela é string. Desta forma,
-        fica díficil operar.
+    fica díficil operar. "Fluxo" da conversão de tipos:
+        str -> bytes -> str
     1. De str para bytes
     2. De bytes para hexadecimal
     3. De hexadecimal para base64
