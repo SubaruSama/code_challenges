@@ -1,11 +1,11 @@
 # About
 
 Repository to stores and showcase the challenges that i've made from the following platforms:
-  - cryptopals
-  - ctyptohack
-  - hackerrank
-  - leetcode
-  - euler (though, but i will try).
+  - Cryptopals
+  - Ctyptohack
+  - Hackerrank
+  - Leetcode
+  - Euler Project (though, but i will try).
 
 Every platform will have a dedicated folder and structure for the challenges.
 
